@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: lightgrey;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.topImage {
+    width: 1000px;
+    margin: auto;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, figcaption {
+    font-family: "Book Antiqua", "Palatino Linotype", serif;
+    line-height: 1.3em;
+}
+
+p, td, li {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+
+h1,h2, h3, h4 {
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* IMAGES */
+
+img {
+    /* tells image to stay within parent container */
+    width: 100%;
+    display: block;
+}
+
+figure {
+    margin: 1.0em 0 0;
+}
+
+figcaption {
+    font-size: 14.5px;
+    line-height: 1.2em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.left-align {
+    float: left;
+    width: 49%;
+}
+
+.right-align {
+    float: right;
+    width: 49%;
+}
+
+/* SCREEN READER */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    }
+
+/* NO BREAK */
+.nobr {
+    white-space: nowrap;
+}
+
+/* CLEARFIX */
+.group:after { content: ""; display: table; clear: both; }
+
+/* RECIPE PAGE */
+h1 {
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+span {
+    color: grey;
+}
+
+ul li {
+    line-height: 1.5em;
+}
